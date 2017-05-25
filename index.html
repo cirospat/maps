@@ -47,7 +47,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1OYHaATjAyHUqGnfBqEQ1zco4pUIMwCtDfUpGAtSVD64/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1SrNEKdNMzf0_MAo9Z6uDkVKV1YKpslm0qFc8n5-jnqs/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -171,8 +171,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".toponimo,.tipo_strada,.cap,.circoscrizione"
-					ex:columnLabels="toponimo, tipo_strada, cap, circoscrizione"
+					ex:columns=".tweet,.data,.link,.circoscrizione"
+					ex:columnLabels="tweet, data, link, circoscrizione"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -181,9 +181,9 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".toponimo" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".toponimo"></td>
-									<td><span ex:content=".tipo_strada"></span></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".tweet" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".data"></td>
+									<td><span ex:content=".link"></span></td>
 									<td><span ex:content=".cap" ></span></td>
 									<td><span ex:content=".circoscrizione" ></span></td>
 								</tr>
