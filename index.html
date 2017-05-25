@@ -144,8 +144,8 @@
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".autore"
-				ex:facetLabel="Autore"
+				ex:expression=".risorse"
+				ex:facetLabel="risorse"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
@@ -172,8 +172,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".titolo,.categoria,.autore,.tag,.data_inserimento"
-					ex:columnLabels="Titolo, Categoria, Autore, Tag, Data inserimento"
+					ex:columns=".progetto,.risorse,.referenti,.tag,.data_inserimento"
+					ex:columnLabels="progetto, risorse, referenti, Tag, Data inserimento"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -182,9 +182,9 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".titolo" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".categoria"></td>
-									<td><span ex:content=".autore"></span></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".progetto" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".risorse"></td>
+									<td><span ex:content=".referenti"></span></td>
 									<td><span ex:content=".tag" ></span></td>
 									<td><span ex:content=".data_inserimento" ></span></td>
 								</tr>
