@@ -9,7 +9,7 @@
 
 	<meta property="og:image" content="http://accussi.opendatasicilia.it/img/accussiShare.jpg" />
 	<meta property="og:title" content="Accussì è un catalogo di tutorial sul mondo dei dati" />
-	<meta property="og:url" content="https://cirospat.github.io/prova/index.html" />
+	<meta property="og:url" content="http://accussi.opendatasicilia.it" />
 	<meta property="og:image:width" content="927" />
 	<meta property="og:image:height" content="624" />
 
@@ -48,7 +48,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1vfafD4yeA8rOVKupb8LBHHtQnXn0dSfVBD5NJJzsDNM/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1f1XJw37V6W8wzV9tupzC0XaK7xAWakRGxU7e3dQlgVQ/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -112,7 +112,7 @@
 			</div>
 
 			<div class="col-md-8 column">
-				<p class="text-center"><code>Programmi di innovazione</code> di <span class="btn btn-danger btn-xs">Palermo</span> dal 2017 al 2013</p>
+				<p class="text-center"><code>Accussì</code>,... perché i <span class="btn btn-danger btn-xs">tutorial</span> sono il sudore delle persone che condividono conoscenza ...</p>
 			</div>
 			<div class="col-md-2 column">
 				<ul class="share-buttons">
@@ -139,26 +139,26 @@
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
 				ex:expression=".tag"
-				ex:facetLabel="tag"
+				ex:facetLabel="Tag"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".realizzazione"
-				ex:facetLabel="realizzazione"
+				ex:expression=".autore"
+				ex:facetLabel="Autore"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".programma"
-				ex:facetLabel="programma"
+				ex:expression=".formato"
+				ex:facetLabel="Formato"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".programma"
-				ex:facetLabel="programma"
+				ex:expression=".categoria"
+				ex:facetLabel="Categoria"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
@@ -172,21 +172,21 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".progetto,.programma,.realizzazione,.tag"
-					ex:columnLabels="progetto, programma, realizzazione, tag"
+					ex:columns=".titolo,.categoria,.autore,.tag,.data_inserimento"
+					ex:columnLabels="Titolo, Categoria, Autore, Tag, Data inserimento"
 					ex:columnFormats="list,list,list,list,list"
-					ex:sortColumn="3"
+					ex:sortColumn="4"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".progetto" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".progetto"></td>
-									<td><span ex:content=".programma"></span></td>
-									<td><span ex:content=".realizzazione" ></span></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".titolo" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".categoria"></td>
+									<td><span ex:content=".autore"></span></td>
 									<td><span ex:content=".tag" ></span></td>
+									<td><span ex:content=".data_inserimento" ></span></td>
 								</tr>
 							</table>
 						</div>
