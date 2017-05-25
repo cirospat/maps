@@ -47,7 +47,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1SrNEKdNMzf0_MAo9Z6uDkVKV1YKpslm0qFc8n5-jnqs/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1vfafD4yeA8rOVKupb8LBHHtQnXn0dSfVBD5NJJzsDNM/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -111,7 +111,7 @@
 			</div>
 
 			<div class="col-md-8 column">
-				<p class="text-center"><code>Accussì</code>,... perché i <span class="btn btn-danger btn-xs">tutorial</span> sono il sudore delle persone che condividono conoscenza ...</p>
+				<p class="text-center"><code>Programmi di innovazione</code> di<span class="btn btn-danger btn-xs">Palermo</span> dal 2017 al 2013</p>
 			</div>
 			<div class="col-md-2 column">
 				<ul class="share-buttons">
@@ -137,27 +137,27 @@
 			<div class="col-md-8 column">
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
-				ex:expression=".tipo_strada"
-				ex:facetLabel="tipo strada"
+				ex:expression=".tag"
+				ex:facetLabel="tag"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".quartiere_nome"
-				ex:facetLabel="quartiere"
+				ex:expression=".realizzazione"
+				ex:facetLabel="realizzazione"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".cap"
-				ex:facetLabel="cap"
+				ex:expression=".programma"
+				ex:facetLabel="programma"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".circoscrizione"
-				ex:facetLabel="circoscrizione"
+				ex:expression=".programma"
+				ex:facetLabel="programma"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
@@ -171,21 +171,21 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".tweet,.data,.link,.circoscrizione"
-					ex:columnLabels="tweet, data, link, circoscrizione"
+					ex:columns=".progetto,.programma,.realizzazione,.tag"
+					ex:columnLabels="progetto, programma, realizzazione, tag"
 					ex:columnFormats="list,list,list,list,list"
-					ex:sortColumn="4"
+					ex:sortColumn="3"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".territorio">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".tweet" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".data"></td>
-									<td><span ex:content=".link"></span></td>
-									<td><span ex:content=".cap" ></span></td>
-									<td><span ex:content=".circoscrizione" ></span></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".tweet" class="Palermo"></strong></span></a></td>
+									<td><span ex:content=".progetto"></td>
+									<td><span ex:content=".programma"></span></td>
+									<td><span ex:content=".realizzazione" ></span></td>
+									<td><span ex:content=".tag" ></span></td>
 								</tr>
 							</table>
 						</div>
