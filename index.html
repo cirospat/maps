@@ -48,7 +48,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1FxO6WwVZ30lmFV1hqirhg7PgaUiqjumdGeuU5rTv818/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1SfhX9SDcJwEGVdgyJ-ix6DG0j0b-lVRP9gKtc_gJfv8/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -138,27 +138,27 @@
 			<div class="col-md-8 column">
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
-				ex:expression=".tag"
-				ex:facetLabel="Tag"
+				ex:expression=".Tipo_strada"
+				ex:facetLabel="Tipo_strada"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".referente"
-				ex:facetLabel="Referente"
+				ex:expression=".Circoscrizione"
+				ex:facetLabel="Circoscrizione"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".importo"
-				ex:facetLabel="Importo"
+				ex:expression=".Quartiere_nome"
+				ex:facetLabel="Quartiere_nome"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".realizzazione"
-				ex:facetLabel="Realizzazione"
+				ex:expression=".CAP"
+				ex:facetLabel="CAP"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
@@ -172,10 +172,10 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".denominazione_progetto,.referenti_piano_operativo_deliberazione_GM_135_20_ luglio_2016,.risorse"
-					ex:columnLabels="Progetto, Referente, Autore, Tag"
-					ex:columnFormats="list,list,list,list"
-					ex:sortColumn="3"
+					ex:columns=".Toponimo,.Tipo_strada,.Limiti_strada,.CAP,.Quartiere_nome"
+					ex:columnLabels="toponimo, tipo strada, Limiti strada, Cap, Quartiere"
+					ex:columnFormats="list,list,list,list,list"
+					ex:sortColumn="4"
 					ex:sortAscending="false"
 					ex:tableStyler="tableStyler">
 					<div ex:role="exhibit-lens">
@@ -183,9 +183,10 @@
 							<table class="table" ex:class-content=".territorio">
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".titolo" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".denominazione_progetto"></td>
-									<td><span ex:content=".referenti_piano_operativo_deliberazione_GM_135_20_ luglio_2016"></span></td>
-									<td><span ex:content=".tag" ></span></td>
+									<td><span ex:content=".Toponimo"></td>
+									<td><span ex:content=".Limiti_strada"></span></td>
+									<td><span ex:content=".Cap"></span></td>
+									<td><span ex:content=".Quartiere_nome" ></span></td>
 																	</tr>
 							</table>
 						</div>
