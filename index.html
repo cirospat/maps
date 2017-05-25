@@ -9,10 +9,17 @@
 
 	<meta property="og:image" content="http://accussi.opendatasicilia.it/img/accussiShare.jpg" />
 	<meta property="og:title" content="Accussì è un catalogo di tutorial sul mondo dei dati" />
-
 	<meta property="og:image:width" content="927" />
 	<meta property="og:image:height" content="624" />
 
+
+<!-- twitter card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@opendatasicilia">
+	<meta name="twitter:title" content="Accussì">
+	<meta name="twitter:description" content="Accussì è un catalogo di tutorial sul mondo dei dati.">
+	<meta name="twitter:image" content="http://accussi.opendatasicilia.it/img/accussiShare.png">
+<!-- twitter card -->
 
 	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
 	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
@@ -104,8 +111,7 @@
 			</div>
 
 			<div class="col-md-8 column">
-				<p class="text-center"><code>Accussì</code>,... perché i <span class="btn btn-danger btn-xs">tutorial</span> sono il sudore delle persone che condividono conoscenza ...
-				https://docs.google.com/spreadsheets/d/1OYHaATjAyHUqGnfBqEQ1zco4pUIMwCtDfUpGAtSVD64/edit#gid=1173206259</p>
+				<p class="text-center"><code>Accussì</code>,... perché i <span class="btn btn-danger btn-xs">tutorial</span> sono il sudore delle persone che condividono conoscenza ...</p>
 			</div>
 			<div class="col-md-2 column">
 				<ul class="share-buttons">
@@ -132,26 +138,26 @@
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
 				ex:expression=".tipo_strada"
-				ex:facetLabel="tipo_strada"
+				ex:facetLabel="tipo strada"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".circoscrizione"
-				ex:facetLabel="circoscrizione"
-				ex:sortMode="count"></div>
-			</div>
-			<div class="col-md-2 column">
-				<div ex:role="facet"
 				ex:expression=".quartiere_nome"
-				ex:facetLabel="quartiere_nome"
-				data-ex-missing-label="Non specificato">
-				</div>
+				ex:facetLabel="quartiere"
+				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
 				ex:expression=".cap"
 				ex:facetLabel="cap"
+				data-ex-missing-label="Non specificato">
+				</div>
+			</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet"
+				ex:expression=".circoscrizione"
+				ex:facetLabel="circoscrizione"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
@@ -165,8 +171,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".toponimo,.tipo_strada,.limiti_strada,.cap,.quartiere_nome"
-					ex:columnLabels="toponimo, tipo strada, limiti strada, cap, quartiere"
+					ex:columns=".toponimo,.tipo_strada,.cap,.circoscrizione"
+					ex:columnLabels="toponimo, tipo_strada, cap, circoscrizione"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -176,10 +182,10 @@
 							<table class="table" ex:class-content=".territorio">
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".toponimo" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".tipo_strada"></td>
-									<td><span ex:content=".limiti_strada"></span></td>
-									<td><span ex:content=".cap"></span></td>
-									<td><span ex:content=".quartiere_nome" ></span></td>
+									<td><span ex:content=".toponimo"></td>
+									<td><span ex:content=".tipo_strada"></span></td>
+									<td><span ex:content=".cap" ></span></td>
+									<td><span ex:content=".circoscrizione" ></span></td>
 								</tr>
 							</table>
 						</div>
