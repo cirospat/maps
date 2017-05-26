@@ -1,6 +1,6 @@
 # 3-programmi-palermo-2017_2013
 <p>
-	3-programmi-palermo-2017_2023 è un <strong>catalogo</strong> di <strong>informazioni su progetti</strong> che il Comune di palermo realizza dal 2017 al 2023. <strong>I dati sono desunti</strong> dai comunicati stampa e dagli atti amministrativi pubblicati sul sito web istituzionale [https://www.comune.palermo.it](comune di Palermo).
+	3-programmi-palermo-2017_2023 è un <strong>catalogo</strong> di <strong>informazioni su progetti</strong> che il Comune di palermo realizza dal 2017 al 2023. <strong>I dati sono desunti</strong> dai comunicati stampa e dagli atti amministrativi pubblicati sul sito web istituzionale [https://www.comune.palermo.it](https://www.comune.palermo.it).
 </p>
 <p>
 	L'obiettivo è <strong>divulgare conoscenza</strong> sui progetti utilizzando una modalità di visualizzazione comoda.
