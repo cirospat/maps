@@ -8,7 +8,7 @@
 <p>
 	È un <strong>iniziativa collettiva</strong> e si nutre della collaborazione di chi condivide le finalità descritte.
 
-L'homepage di 3-programmi-palermo-2017_2023 è [http://accussi.opendatasicilia.it](http://accussi.opendatasicilia.it)
+L'homepage di 3-programmi-palermo-2017_2023 è [https://cirospat.github.io/3-programmi-palermo-2017_2013/index.html](https://cirospat.github.io/3-programmi-palermo-2017_2013)
 
 ## Licenza
 <p>
