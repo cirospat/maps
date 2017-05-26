@@ -172,8 +172,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".progetto,.risorse,.referenti,.tag,.realizzazione"
-					ex:columnLabels="progetto, risorse, referenti, tag, realizzazione"
+					ex:columns=".progetto,.importo,.referente,.tag,.realizzazione"
+					ex:columnLabels="progetto, importo, referente, tag, realizzazione"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -184,7 +184,7 @@
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".progetto" class="accussì"></strong></span></a></td>
 									<td><span ex:content=".risorse"></td>
-									<td><span ex:content=".referenti"></span></td>
+									<td><span ex:content=".referente"></span></td>
 									<td><span ex:content=".tag" ></span></td>
 									<td><span ex:content=".realizzazione" ></span></td>
 								</tr>
