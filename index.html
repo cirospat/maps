@@ -2,13 +2,13 @@
 <html lang="it">
 <head>
 	<meta charset="utf-8">
-	<title>3 Programmi innovazione Palermo 2017-2013</title>
+	<title>maps made by cirospat</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="3 Programmi innovazione Palermo 2017-2013.">
+	<meta name="description" content="maps made by cirospat.">
 	<meta name="author" content="OpenDataSicilia">
 
 	<meta property="og:image" content="http://accussi.opendatasicilia.it/img/accussiShare.jpg" />
-	<meta property="og:title" content="3 Programmi innovazione Palermo 2017-2023" />
+	<meta property="og:title" content="maps made by cirospat" />
 	<meta property="og:url" content="http://accussi.opendatasicilia.it" />
 	<meta property="og:image:width" content="927" />
 	<meta property="og:image:height" content="624" />
@@ -40,7 +40,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1FxO6WwVZ30lmFV1hqirhg7PgaUiqjumdGeuU5rTv818/onetwny/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1auVqTh1aeJ1c2DuYUWI1UX0p8OHtupApFEjCXWsmxbA/onetwny/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -75,7 +75,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="./index.html">3 Programmi innovazione Palermo 2017-2023</a>
+								<a href="./index.html">maps made by cirospat</a>
 							</li>
 							</ul>
 						<ul class="nav navbar-nav navbar-right">
@@ -95,9 +95,9 @@
 			</div>
 
 			<div class="col-md-8 column">
-				<p class="text-center"><code>3 Programmi innovazione Palermo 2017-2013</code>, <span class="btn btn-danger btn-xs">per capire</span> come cambia la città. 
-				   Le fonti dati e info sono: <a href="https://www.comune.palermo.it/history.php?idx=1">comunicati stampa</a> + <a href="https://servizionline.comune.palermo.it/portcitt/jsp/home.jsp?modo=info&info=servizi.jsp&ARECOD=60&SERCOD=-1&sportello=portcitt">deliberazioni e determinazioni</a> pubblicate sul sito web istiuzionale del comune di Palermo.
-				   Il database di lettura dei dati visualizzati di seguito è <a href="https://docs.google.com/spreadsheets/d/1FxO6WwVZ30lmFV1hqirhg7PgaUiqjumdGeuU5rTv818/pubhtml">questo</a>
+				<p class="text-center"><code>maps made by cirospat</code>, <span class="btn btn-danger btn-xs">conoscere</span> la città. 
+				   Le fonti dati e info sono: <a href="https://sites.google.com/view/cirospat">-------</a> + <a href="">---</a> ------.
+				   
 					     
 				</p>
 			</div>
@@ -107,7 +107,7 @@
 
 			</div>
 			<div class="col-md-10 column">
-				<strong>Cerca il progetto o la parola chiave</strong><div ex:role="facet" ex:facetClass="TextSearch"></div>
+				<strong>cerca la mappa o la parola chiave</strong><div ex:role="facet" ex:facetClass="TextSearch"></div>
 			</div>
 			<div class="col-md-1 column">
 
@@ -118,26 +118,26 @@
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
 				ex:expression=".tag"
-				ex:facetLabel="Tag"
+				ex:facetLabel="tag"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".importo"
-				ex:facetLabel="importo"
+				ex:expression=".categoria"
+				ex:facetLabel="categoria"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".programma"
-				ex:facetLabel="programma"
+				ex:expression=".territorio"
+				ex:facetLabel="territorio"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".referente"
-				ex:facetLabel="referente"
+				ex:expression=".collaborazione"
+				ex:facetLabel="collaborazione"
 				data-ex-missing-label="Non specificato">
 				</div>
 			</div>
@@ -151,8 +151,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".progetto,.importo,.referente,.tag,.realizzazione"
-					ex:columnLabels="progetto, importo, referente, tag, realizzazione"
+					ex:columns=".titolo,.categoria,.tag,.territorio,.collaborazione"
+					ex:columnLabels="titolo, categoria, tag, territorio, collaborazione"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -162,10 +162,10 @@
 							<table class="table" ex:class-content=".territorio">
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".progetto" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".importo"></td>
-									<td><span ex:content=".referente"></span></td>
-									<td><span ex:content=".tag" ></span></td>
-									<td><span ex:content=".realizzazione" ></span></td>
+									<td><span ex:content=".categoria"></td>
+									<td><span ex:content=".tag"></span></td>
+									<td><span ex:content=".territorio" ></span></td>
+									<td><span ex:content=".collaborazione" ></span></td>
 								</tr>
 							</table>
 						</div>
