@@ -1,14 +1,12 @@
-# 3-programmi-palermo-2017_2013
+# maps by cirospat
 <p>
-	3-programmi-palermo-2017_2023 è un <strong>catalogo</strong> di <strong>informazioni su progetti</strong> che il Comune di palermo realizza dal 2017 al 2023. <strong>I dati sono desunti</strong> dai comunicati stampa e dagli atti amministrativi pubblicati sul sito web istituzionale https://www.comune.palermo.it.
+	è un elenco di mappe create da ciro spataro.
 </p>
 <p>
-	L'obiettivo è <strong>divulgare conoscenza</strong> sui progetti utilizzando una modalità di visualizzazione comoda.
+	L'obiettivo è <strong>divulgare conoscenza</strong>.
 </p>
 <p>
-	È un <strong>iniziativa collettiva</strong> e si nutre della collaborazione di chi condivide le finalità descritte.
-
-L'homepage di 3-programmi-palermo-2017_2023 è [https://cirospat.github.io/3-programmi-palermo-2017_2013](https://cirospat.github.io/3-programmi-palermo-2017_2013)
+	È un iniziativa che si nutre della collaborazione di chi condivide conoscenza.
 
 ## Licenza
 <p>
