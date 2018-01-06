@@ -98,67 +98,75 @@
  </div>
 
  <div class="col-md-8 column">
-  <p>Accussì &egrave; <strong>open</strong> sia in termini di <strong>dati</strong>, che di <strong>strumenti</strong> usati (per la precisione qualcuno &egrave; soltanto free), che  di <strong>codice</strong>.</p>
-  <h3>Dati</h3>
-  <p>I dati che alimentano Accussì sono disponibili in <a href="https://spreadsheets.google.com/tq?tqx=out:html&tq=SELECT%20A%2CB%2CC%2CD%2CE%2CF%2CG&key=1f1XJw37V6W8wzV9tupzC0XaK7xAWakRGxU7e3dQlgVQ" target="_blank"><code>HTML</code></a> e <a href="https://spreadsheets.google.com/tq?tqx=out:csv&tq=SELECT%20A%2CB%2CC%2CD%2CE%2CF%2CG&key=1f1XJw37V6W8wzV9tupzC0XaK7xAWakRGxU7e3dQlgVQ" target="_blank"><code>CSV</code></a>. Disponibile anche il <a href="https://github.com/SiciliaHub/accussi/blob/gh-pages/data/datapackage.json" target="_blank"><code>datapackage</code></a> con la descrizione del dataset.</p>
-
-  <table class="table table-condensed">
-    <caption>Schema dati</caption>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nome</th>
-        <th>Descrizione</th>
-        <th>Tipo</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>titolo</td>
-        <td>Nome della risorsa</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>autore</td>
-        <td>Autore della risorsa</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>categoria</td>
-        <td>Categorie a cui &egrave; associata la risorsa</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>tag</td>
-        <td>Tag a cui &egrave; associata la risorsa</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>formato</td>
-        <td>Formato della risorsa: video - slide - articolo</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>descrizione</td>
-        <td>Descrizione della risorsa: tutorial - presentazione</td>
-        <td>Testo</td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>URL</td>
-        <td>URL della risorsa</td>
-        <td>Testo</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3>Strumenti</h3>
-  <p>Gli strumenti principali usati per realizzare Accussì sono quattro:</p>
+ <div>&nbsp;</div>
+<p><strong>SFONDI TILES PER UMAP</strong></p>
+<ul>
+<li><span style="font-weight: 400;">lista di tiles per sfondi &nbsp;&nbsp;</span><a href="http://geomappando.com/maps/OL3_map_tile_provider.html"><span style="font-weight: 400;">http://geomappando.com/maps/OL3_map_tile_provider.html</span></a></li>
+<li><span style="font-weight: 400;">tiles vari da usare &nbsp;</span><a href="https://leaflet-extras.github.io/leaflet-providers/preview/"><span style="font-weight: 400;">https://leaflet-extras.github.io/leaflet-providers/preview/</span></a></li>
+<li><span style="font-weight: 400;">satellite tile ESRI - World Imagery </span><a href="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D"><span style="font-weight: 400;">http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}</span></a></li>
+<li><span style="font-weight: 400;">satellite tile Google </span><a href="https://mt1.google.com/vt/lyrs=s&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D"><span style="font-weight: 400;">https://mt1.google.com/vt/lyrs=s&amp;x={x}&amp;y={y}&amp;z={z}</span></a></li>
+<li><span style="font-weight: 400;">tile con sfondo satellite da mapbox/satellite-v9 con API: </span><a href="http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx"><span style="font-weight: 400;">http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx</span></a><span style="font-weight: 400;"> &nbsp;(senza nomi strade)</span></li>
+<li><span style="font-weight: 400;">tile con sfondo satellite da mapbox/satellite-v9 con API:&nbsp;</span><a href="https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/%7Bz%7D/%7Bx%7D/%7By%7D?access_token=pk.eyJ1Ijoibm9yZGFpIiwiYSI6ImtCWWpvY00ifQ.E9g3YhLqDFGkdXx7pKnCWw">https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoibm9yZGFpIiwiYSI6ImtCWWpvY00ifQ.E9g3YhLqDFGkdXx7pKnCWw</a> (con nomi strade)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>SERVIZIO ONLINE PER CREAZIONE DI TILES DA IMMAGINI</strong><strong> &nbsp;</strong></p>
+<p><span style="font-weight: 400;">Mapwarper </span><span style="font-weight: 400;"><a href="http://mapwarper.net/">http://mapwarper.net/</a></span></p>
+<p>&nbsp;</p>
+<p><strong>CODICE DA USARE PER UMAP</strong></p>
+<p>video embedding = {{{https://www.youtube.com/embed/_______|250}}}</p>
+<p>link con testo = [[<a href="http://example.com/">http://example.com</a>|testo del link]]</p>
+<p>immagine = {{<a href="http://immagine.url.it/">http://immagine.url.it</a>|larghezza}} Immagine</p>
+<p>link a url con icona cliccabile = [[<a href="about:blank">http://opendatasicilia.it|{{http://hexb.in/hexagons/opendatasicilia.png|90</a>}}]]</p>
+<p>&nbsp;</p>
+<p><strong>ICONE MAPPE</strong></p>
+<p><a href="http://www.cityplanner.it/supply/icon_web/mapbox-maki-51d4f10/src/"><span style="font-weight: 400;">http://www.cityplanner.it/supply/icon_web/mapbox-maki-51d4f10/src/</span></a></p>
+<p><strong>GOOGLEMAPS </strong></p>
+<p><span style="font-weight: 400;">&lt;iframe width='100%' height='500' src="http.... &nbsp;&nbsp;"&gt;&lt;/iframe&gt;</span></p>
+<p><strong>URL ENCODER E DECODER</strong></p>
+<p><a href="http://meyerweb.com/eric/tools/dencoder/"><span style="font-weight: 400;">http://meyerweb.com/eric/tools/dencoder/</span></a></p>
+<p><span style="font-weight: 400;"><strong>POST IMAGE DA LINKARE SU UMAP</strong></span></p>
+<p><span style="font-weight: 400;"><a href="http://postimages.org/">http://postimages.org/</a> </span></p>
+<p><strong>Icone mappe </strong><a href="https://mapicons.mapsmarker.com"><strong>https://mapicons.mapsmarker.com</strong></a> <span style="font-weight: 400;">ccbysa</span></p>
+<p>&nbsp;</p>
+<p><strong>GOOGLE DRIVE SPREADSHEET TO UMAP</strong></p>
+<p>Video breve per alimentare in modo facile uMap da un foglio elettronico su Google Drive, by Andrea Borruso <a href="https://www.youtube.com/watch?v=YKZc84WtTd4">https://www.youtube.com/watch?v=YKZc84WtTd4</a></p>
+<p><strong>Tutorial per fare mappe alimentate da google spreadsheet</strong></p>
+<p><a href="https://docs.google.com/document/d/1NARnTh4orNbIHEe8uROLYbWoc40nS3cGBpZqxBYFe5I">https://docs.google.com/document/d/1NARnTh4orNbIHEe8uROLYbWoc40nS3cGBpZqxBYFe5I</a></p>
+<p><strong>DB x UMAP con output in CSV</strong></p>
+<p><span style="font-weight: 400;"><a href="https://spreadsheets.google.com/tq?tqx=out:csv&amp;tq=SELECT%20B%2CC%2CD%2CE%2CF%2CG%2CH%20WHERE%20G%20Contains%20%27.%27&amp;key=">https://spreadsheets.google.com/tq?tqx=out:csv&amp;tq=SELECT%20B%2CC%2CD%2CE%2CF%2CG%2CH%20WHERE%20G%20Contains%20%27.%27&amp;key=</a></span></p>
+<p>&nbsp;</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1laR9p_Ua0BPCJee5BbHvV7S-tjbmHxhLksUdKnZEW0M/edit#gid=0"><strong>DATASET XML</strong></a><strong> e </strong><a href="http://umap.openstreetmap.fr/it/map/avvisi-polizia-municipale-sulla-mobilita-di-palerm_135416"><strong>MAPPA</strong></a><strong> UMAP AVVISI POLIZIA MUNICIPALE PA</strong></p>
+<p><span style="font-weight: 400;">=IMPORTXML(</span><span style="font-weight: 400;">"</span><a href="https://www.comune.palermo.it/feed/rss_pm.xml%22,%22//item"><span style="font-weight: 400;">https://www.comune.palermo.it/feed/rss_pm.xml","//item</span></a><span style="font-weight: 400;">"</span><span style="font-weight: 400;">) </span></p>
+<p><strong>TRUE:</strong><span style="font-weight: 400;"> &nbsp;&nbsp;=if(</span><span style="font-weight: 400;">G2</span><span style="font-weight: 400;">=</span><span style="font-weight: 400;">""</span><span style="font-weight: 400;">,</span><span style="font-weight: 400;">""</span><span style="font-weight: 400;">,REGEXMATCH(</span><span style="font-weight: 400;">G2</span><span style="font-weight: 400;">,</span><span style="font-weight: 400;">"[a-zA-Z]{3}, "</span><span style="font-weight: 400;">&amp;TEXT(DAY(TODAY()),</span><span style="font-weight: 400;">"00"</span><span style="font-weight: 400;">)))</span></p>
+<p><strong>Query per Umap</strong>&nbsp;</p>
+<p><span style="font-weight: 400;"><a href="https://spreadsheets.google.com/tq?tqx=out:csv&amp;tq=SELECT%20A%2CB%2CC%2CG%2CH%2CI%20WHERE%20H%20Contains%20%27.%27%20AND%20K%20Contains%20%27true%27&amp;key=1laR9p_Ua0BPCJee5BbHvV7S-tjbmHxhLksUdKnZEW0M">https://spreadsheets.google.com/tq?tqx=out:csv&amp;tq=SELECT%20A%2CB%2CC%2CG%2CH%2CI%20WHERE%20H%20Contains%20%27.%27%20AND%20K%20Contains%20%27true%27&amp;key=1laR9p_Ua0BPCJee5BbHvV7S-tjbmHxhLksUdKnZEW0M</a></span></p>
+<p>&nbsp;</p>
+<p><strong>GEOCODER PER TROVARE COORDINATE LAT E LONG </strong></p>
+<p><a href="http://geocoder.ondata.it/"><span style="font-weight: 400;">http://geocoder.ondata.it/</span></a><span style="font-weight: 400;"> con Openstreetmap tramite OnData</span></p>
+<p><a href="http://dati.comune.galatone.le.it/geocoder/"><span style="font-weight: 400;">http://dati.comune.galatone.le.it/geocoder/</span></a><span style="font-weight: 400;"> &nbsp;con Openstreetmap</span></p>
+<p><a href="http://school.dataninja.it/tools/geocoder-trova-le-coordinate/"><span style="font-weight: 400;">http://school.dataninja.it/tools/geocoder-trova-le-coordinate/</span></a><span style="font-weight: 400;"> con Openstreetmap</span></p>
+<p><a href="http://www.apposta.biz/prove/geocoder.php"><span style="font-weight: 400;">http://www.apposta.biz/prove/geocoder.php</span></a><span style="font-weight: 400;"> con Openstreetmap</span></p>
+<p><span style="font-weight: 400;"><a href="http://it.mygeoposition.com/">http://it.mygeoposition.com/</a> con Googlemap</span></p>
+<p>&nbsp;</p>
+<p><strong>CSV EDITOR ONLINE</strong></p>
+<p><a href="http://comma-chameleon.io/"><span style="font-weight: 400;">http://comma-chameleon.io/</span></a><span style="font-weight: 400;"> &nbsp;download</span></p>
+<p><span style="font-weight: 400;"><a href="https://ethercalc.org/">https://ethercalc.org/</a> online</span></p>
+<p>&nbsp;</p>
+<p><strong>EDITOR ONLINE PER LAVORI CONDIVISI</strong></p>
+<p><a href="https://www.editpad.org/"><span style="font-weight: 400;">https://www.editpad.org/</span></a></p>
+<p><a href="https://html-online.com/editor/"><span style="font-weight: 400;">https://html-online.com/editor/</span></a></p>
+<p><a href="http://collabedit.com/j4skw"><span style="font-weight: 400;">http://collabedit.com/j4skw</span></a></p>
+<p><a href="https://hackmd.io/AwEwHALAbBCGBmBaAnDAzIiBWZwUFMBjCRIgdjPlmpACZDkg?both"><span style="font-weight: 400;">https://hackmd.io/AwEwHALAbBCGBmBaAnDAzIiBWZwUFMBjCRIgdjPlmpACZDkg?both</span></a></p>
+<p>&nbsp;</p>
+<p><strong>QUERY PER XML (RSS FEED) E FEEDBURNER</strong></p>
+<p><span style="font-weight: 400;">.xml?query=cad&amp;newscount=25</span></p>
+<p><span style="font-weight: 400;">cad= parola da cercare</span></p>
+<p><span style="font-weight: 400;">newscount= il numero delle news da visualizzare come output della query</span></p>
+<p><span style="font-weight: 400;"><a href="https://developers.google.com/maps/documentation/geocoding/start"><strong>https://developers.google.com/maps/documentation/geocoding/start</strong></a> con le API di Google</span></p>
+<p><a href="http://www.gpsvisualizer.com/geocode"><span style="font-weight: 400;">http://www.gpsvisualizer.com/geocode</span></a><span style="font-weight: 400;"> (google e bing) </span></p>
+<p><a href="http://www.gpsvisualizer.com/geocoder/"><span style="font-weight: 400;">http://www.gpsvisualizer.com/geocoder/</span></a><span style="font-weight: 400;"> con API di Mapquest</span></p>
+<p><span style="font-weight: 400;"><a href="https://developer.mapquest.com/user/me/apps">https://developer.mapquest.com/user/me/apps</a> API Mapquest per geocoding</span></p>
+<p>&nbsp;</p>
   <ul>
    <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare il cuore di Accussì, ovvero l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
    <li><a href="http://getbootstrap.com" target="_blank"><strong>Twitter Boostrap</strong></a>, per dare un po' di <strong>stile</strong> alle pagine pubblicate;</li>
