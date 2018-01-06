@@ -95,7 +95,7 @@
  <div class="col-md-8 column">
  <div>&nbsp;</div>
 
-<h3><span style="color: #0000ff;"><br /><strong><em>Strummintiari</em></strong>, ovvero smanettare con strumenti online, per costruire mappe&nbsp;attraverso l'uso dei&nbsp;servizi di webmapping, quando non si conosce QGis</span></h3>
+<h3><span style="color: #0000ff;"><button type="button" class="btn btn-pill btn-success"><b>STRUMMINTIARI</b></button>, ovvero smanettare con strumenti online, per costruire mappe&nbsp;attraverso l'uso dei&nbsp;servizi di webmapping, quando non si conosce QGis</span></h3>
 <p><br /><strong>SERVIZI DI WEBMAPPING</strong></p>
 <ul>
 <li>
@@ -161,7 +161,7 @@
 <p>URL ENCODER E DECODER =<span>&nbsp;</span><a href="http://meyerweb.com/eric/tools/dencoder/">http://meyerweb.com/eric/tools/dencoder/</a></p>
 </li>
 <li>
-<p>POST IMAGE DA LINKARE SU UMAP:<span>&nbsp;</span><a href="http://postimages.org/">http://postimages.org/</a></p>
+<p>POST IMAGE, IMMAGINI DA LINKARE (SU UMAP):<span>&nbsp;</span><a href="http://postimages.org/">http://postimages.org/</a></p>
 </li>
 <li>
 <p>Icone mappe<span>&nbsp;</span><a href="https://mapicons.mapsmarker.com">https://mapicons.mapsmarker.com</a><span>&nbsp;</span>ccbysa</p>
@@ -182,7 +182,7 @@
 </ul>
 <p><a href="https://docs.google.com/spreadsheets/d/1laR9p_Ua0BPCJee5BbHvV7S-tjbmHxhLksUdKnZEW0M/edit#gid=0"><b><br />DATASET XML</b></a><b><span>&nbsp;</span>e<span>&nbsp;</span></b><a href="http://umap.openstreetmap.fr/it/map/avvisi-polizia-municipale-sulla-mobilita-di-palerm_135416"><b>MAPPA</b></a><b><span>&nbsp;</span>UMAP (ESEMPIO AVVISI POLIZIA MUNICIPALE PALERMO)&nbsp;&nbsp;<br /></b> <span style="font-weight: 400;">=IMPORTXML(</span><span style="font-weight: 400;">"</span><a href="https://www.comune.palermo.it/feed/rss_pm.xml%22,%22//item"><span style="font-weight: 400;">https://www.comune.palermo.it/feed/rss_pm.xml","//item</span></a><span style="font-weight: 400;">"</span><span style="font-weight: 400;">) su Google Spreadsheet<br /> </span><b>TRUE:</b><span style="font-weight: 400;"><span>&nbsp;</span>&nbsp;&nbsp;=if(</span><span style="font-weight: 400;">G2</span><span style="font-weight: 400;">=</span><span style="font-weight: 400;">""</span><span style="font-weight: 400;">,</span><span style="font-weight: 400;">""</span><span style="font-weight: 400;">,REGEXMATCH(</span><span style="font-weight: 400;">G2</span><span style="font-weight: 400;">,</span><span style="font-weight: 400;">"[a-zA-Z]{3}, "</span><span style="font-weight: 400;">&amp;TEXT(DAY(TODAY()),</span><span style="font-weight: 400;">"00"</span><span style="font-weight: 400;">)))<br /></span> <b>Query per Umap</b><span>&nbsp;</span><b>=&nbsp;<span style="font-weight: 400;"></span></b></p>
 <pre>https://spreadsheets.google.com/tq?tqx=out:csv&amp;tq=SELECT%20A%2CB%2CC%2CG%2CH%2CI%20WHERE%20H%20Contains%20%27.%27%20AND%20K%20Contains%20%27true%27&amp;key=1laR9p_Ua0BPCJee5BbHvV7S-tjbmHxhLksUdKnZEW0M</pre>
-<p><b><br />GEOCODER PER TROVARE COORDINATE LAT E LONG</b></p>
+<p><b><br />GEOCODER PER TROVARE COORDINATE LATITUDINE E LONGITUDINE</b></p>
 <ul>
 <li>
 <p><a href="http://geocoder.ondata.it/"><span style="font-weight: 400;">http://geocoder.ondata.it/</span></a><span style="font-weight: 400;"><span>&nbsp;</span>con Openstreetmap tramite OnData</span></p>
