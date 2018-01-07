@@ -7,21 +7,6 @@
 </p>
 <p>
 
-Gli strumenti strumenti principali usati per realizzare questa visualizzazione:
-
-Simile Exhibit, per realizzare il cuore di maps by cirospat, ovvero l'interfaccia di navigazione del catalogo;
-</p>
-Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
-</p>
-GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
-</p>
-L' icona è di Evan MacDonald del "the Noun Project".
-	
-## Licenza
-<p>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">maps by cirospat</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
-</p>
-
 <p>Gli <button type="button" class="btn btn-sm btn-pill btn-success"><b>strumenti</b></button> strumenti principali usati per realizzare questa visualizzazione:</p>
   <ul>
    <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare il cuore di <code><b>maps by cirospat</b></code>, ovvero l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
@@ -34,4 +19,11 @@ L' icona è di Evan MacDonald del "the Noun Project".
   <div>
   <p> <button type="button" class="btn btn-xs btn-pill btn-info">contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
 <p></p>
+	
+## Licenza
+<p>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">maps by cirospat</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+</p>
+
+
   
