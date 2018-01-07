@@ -15,8 +15,6 @@ Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
 </p>
 GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
 </p>
-GitHub Pages, per l'hosting dei file che costituiscono maps by cirospat.
-</p>
 L' icona è di Evan MacDonald del "the Noun Project".
 	
 ## Licenza
