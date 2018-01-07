@@ -6,6 +6,14 @@
 	L'obiettivo è <strong>divulgare conoscenza</strong> attraverso le <span class="btn btn-danger btn-xs">mappe</span>.
 </p>
 <p>
+
+Gli strumenti strumenti principali usati per realizzare questa visualizzazione:
+
+Simile Exhibit, per realizzare il cuore di maps by cirospat, ovvero l'interfaccia di navigazione del catalogo;
+Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
+GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
+GitHub Pages, per l'hosting dei file che costituiscono maps by cirospat.
+L' icona è di Evan MacDonald del "the Noun Project".
 	
 ## Licenza
 <p>
