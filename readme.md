@@ -19,7 +19,9 @@
   <div>
   <p> <button type="button" class="btn btn-xs btn-pill btn-info">contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
 <p></p>
-	
+
+<a href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/nonportale_favicon.png" alt="non portale" caption="false" width="32" height="32" /></a> <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/petrusino_favicon.png" alt="petrusino" caption="false" width="32" height="32" /></a>  <img src="./img/maps_favicon.png">  
+
 ## Licenza
 <p>
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">maps by cirospat</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY SA 4.0 Int</a>.
