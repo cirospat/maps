@@ -22,6 +22,9 @@ L' icona è di Evan MacDonald del "the Noun Project".
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">maps by cirospat</span> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
 </p>
 <img src="./img/accussi_favicon.png" alt="accussi" caption="false" width="32" height="32" /></a> 
+</p>
 <a href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/nonportale_favicon.png" alt="non portale" caption="false" width="32" height="32" /></a> 
+</p>
 <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/petrusino_favicon.png" alt="petrusino" caption="false" width="32" height="32" />
+</p>
 </a>  <img src="./img/maps_favicon.png">
