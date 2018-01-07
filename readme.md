@@ -1,4 +1,4 @@
-# <code><b>maps by cirospat</b></code>
+## <code><b>maps by cirospat</b></code>
 <p>
 	è un elenco di mappe create da ciro spataro in <span class="btn btn-danger btn-xs">collaborazione</span> con altri soggetti che <span class="btn btn-danger btn-xs">condividono</span> conoscenza su come fare cose.
 L'obiettivo è <strong>divulgare conoscenza</strong> attraverso le <span class="btn btn-danger btn-xs">mappe</span>.
