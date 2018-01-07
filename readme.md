@@ -10,9 +10,13 @@
 Gli strumenti strumenti principali usati per realizzare questa visualizzazione:
 
 Simile Exhibit, per realizzare il cuore di maps by cirospat, ovvero l'interfaccia di navigazione del catalogo;
+</p>
 Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
+</p>
 GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
+</p>
 GitHub Pages, per l'hosting dei file che costituiscono maps by cirospat.
+</p>
 L' icona è di Evan MacDonald del "the Noun Project".
 	
 ## Licenza
