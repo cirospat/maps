@@ -15,9 +15,9 @@ L'obiettivo è <strong>divulgare conoscenza</strong> attraverso le <span class="
   </ul>
 <p></p>
   <div>
-Hanno collaborato per l'ottimizzazione del codice: Andrea Borruso.   
+Hanno collaborato per l'ottimizzazione del codice: Andrea Borruso https://github.com/aborruso/.   
   
-  <p> <button type="button" class="btn btn-xs btn-pill btn-info">contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
+  <p> <button type="button" class="btn btn-xs btn-pill btn-info">Contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
 <p></p>
 
 
