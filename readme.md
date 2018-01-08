@@ -15,7 +15,9 @@ L'obiettivo è <strong>divulgare conoscenza</strong> attraverso le <span class="
   </ul>
 <p></p>
   <div>
-  <p> <button type="button" class="btn btn-xs btn-pill btn-info">contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
+  
+  <p> Hanno collaborato per l'ottimizzazione del codice: Andrea Borruso https://github.com/aborruso
+  <p> <button type="button" class="btn btn-xs btn-pill btn-info">Contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a></p> 
 <p></p>
 
 <a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/accussi_favicon.png" alt="accussi" caption="false" width="22" height="22" /></a>  <a href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/nonportale_favicon.png" alt="non portale" caption="false" width="22" height="22" /></a> <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/petrusino_favicon.png" alt="petrusino" caption="false" width="22" height="22" /></a>  <a href="https://cirospat.github.io/maps/index.html" target="_blank" rel="noopener"> <img src="./img/maps_favicon.png" alt="accussi" caption="false" width="22" height="22" /></a>  di<a href="http://opendatasicilia.it"> Open Data Sicilia</a>
