@@ -37,6 +37,11 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+	
+<!-- css Back To Top -->
+<link href="js/top/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+<link href="js/top/backTop.css" rel="stylesheet" type="text/css" />
+	
 
     <link rel="exhibit/data"
     type="application/jsonp"
@@ -236,6 +241,20 @@
 			</p>
 		</footer>
 
+			<!-- script Back To Top -->
+ <a id='backTop'>Back To Top</a>
+<script src="js/top/jquery.backTop.min.js"></script>
+<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 800,
+                    'speed' : 500,
+                    'color' : 'red',
+					
+					                });
+            });
+        </script>
+			
 	</div>
 </body>
 </html>
