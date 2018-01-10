@@ -45,7 +45,7 @@
 
     <link rel="exhibit/data"
     type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1SfhX9SDcJwEGVdgyJ-ix6DG0j0b-lVRP9gKtc_gJfv8/od6/public/basic?alt=json-in-script"
+    href="https://spreadsheets.google.com/feeds/list/1bhVCNa78-PAhG8a02-0ysABZcHJTUKAxvOGguOG364s/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
 
 
@@ -80,11 +80,11 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="./index.html"><b>maps by cirospat</b></a>
+								<a href="./ufficicomunali.html"><b>uffici comunali</b></a>
 							</li>
 							
 							<li>
-								<a href="./strummintiari.html"><b>strummintiari</b></a>
+								<a href="./index.html"><b>strummintiari</b></a>
 							</li>
 							<li>
 								<a href="https://coseerobe.gbvitrano.it/" target="_blank">cose e robe</a>
@@ -127,8 +127,8 @@
 			</div>
 
 			<div class="col-md-8 column">
-				<p class="text-center"> è un catalogo di <span class="btn btn-danger btn-xs"><b>mappe georeferenziate</b></span> soprattutto su <button type="button" class="btn btn-xs btn-pill btn-info"><b>Palermo</b></button>. 
-				   Un iniziativa di <a href="https://sites.google.com/view/cirospat" target="_blank"><b>ciro spataro</b></a> in collaborazione con altri soggetti che <button type="button" class="btn btn-xs btn-pill btn-warning"><b>condividono conoscenza</b></button>, e alimentata dalla cultura dei <button type="button" class="btn btn-xs btn-pill btn-warning"><b>dati</b></button> e delle informazioni rappresentati sulle mappe </p>
+				<p class="text-center"> è un catalogo per trovare <span class="btn btn-danger btn-xs"><b>gli uffici comunali</b></span>. 
+				   Fonte dati <a href="https://www.comune.palermo.it/organigramma.php" target="_blank"><b>organigramma del Comune di Palermo</b></a></p>
 			</div>
 			<div class="col-md-2 column">
 				<ul class="share-buttons">
@@ -144,7 +144,7 @@
 
 			</div>
 			<div class="col-md-8 column">
-				<button type="button" class="btn btn-pill btn-success"><b>cerca la mappa o la parola chiave</b></button><div ex:role="facet" ex:facetClass="TextSearch"></div>
+				<button type="button" class="btn btn-pill btn-success"><b>cerca l'ufficio</b></button><div ex:role="facet" ex:facetClass="TextSearch"></div>
 			</div>
 			<div class="col-md-1 column">
 
@@ -154,14 +154,14 @@
 			<div class="col-md-11 column">
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
-				ex:expression=".cap"
+				ex:expression=".tag"
 				ex:facetLabel="tag (parola chiave)"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
 				<div ex:role="facet"
-				ex:expression=".circoscrizione"
-				ex:facetLabel="circoscrizione"
+				ex:expression=".collegamento_anello_telematico"
+				ex:facetLabel="anello telematico"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
@@ -189,8 +189,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".toponimo,.circoscrizione,.quartiere_nome,.cap,.tipo_strada"
-					ex:columnLabels="toponimo, circoscrizione, quartiere, cap, tipo_strada"
+					ex:columns=".ufficio_comunale,.tag,.quartiere_nome,.collegamento_anello_telematico"
+					ex:columnLabels="ufficio_comunale, tag, .collegamento anello telematico"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -199,9 +199,9 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".titolo">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".toponimo" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".circoscrizione"></td>
-									<td><span ex:content=".quartiere_nome" ></span></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".ufficio_comunale" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".tag"></td>
+									<td><span ex:content=".collegamento_anello_telematico" ></span></td>
 									<td><span ex:content=".cap" ></span></td>
 									<td><span ex:content=".tipo_strada" ></span></td>
 									</tr>
