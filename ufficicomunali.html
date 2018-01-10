@@ -86,25 +86,7 @@
 							<li>
 								<a href="./index.html"><b>strummintiari</b></a>
 							</li>
-							<li>
-								<a href="https://coseerobe.gbvitrano.it/" target="_blank">cose e robe</a>
-							</li>
-							<li>
-								<a href="http://petrusino.opendatasicilia.it" target="_blank">petrusino</a>
-							</li>
 							
-							<li>
-								<a href="http://accussi.opendatasicilia.it" target="_blank">accussì</a>
-							</li>
-							<li>
-								<a href="http://albopop.it/" target="_blank">Albo pop</a>
-							</li>
-							<li>
-								<a href="http://www.foiapop.it/" target="_blank">FOIA pop</a>
-							</li>
-							<li>
-								<a href="http://nonportale.opendatasicilia.it" target="_blank">non portale</a>
-							</li>
 							<li>
 								<a href="https://groups.google.com/forum/#!forum/opendatasicilia" target="_blank">forum ODS</a>
 							</li>
@@ -155,7 +137,7 @@
 				<div ex:role="facet"
 				ex:facetClass="Cloud"
 				ex:expression=".tag"
-				ex:facetLabel="tag (parola chiave)"
+				ex:facetLabel="ufficio"
 				ex:sortMode="count"></div>
 			</div>
 			<div class="col-md-3 column">
@@ -189,8 +171,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".ufficio_comunale,.tag,.quartiere_nome,.collegamento_anello_telematico"
-					ex:columnLabels="ufficio_comunale, tag, .collegamento anello telematico"
+					ex:columns=".ufficio_comunale,.tag,.indirizzo,.collegamento_anello_telematico,.email"
+					ex:columnLabels="ufficio_comunale, tag, indirizzo, collegamento anello telematico, email"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -201,10 +183,10 @@
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".ufficio_comunale" class="accussì"></strong></span></a></td>
 									<td><span ex:content=".tag"></td>
+									<td><span ex:content=".indirizzo" ></span></td>
 									<td><span ex:content=".collegamento_anello_telematico" ></span></td>
-									<td><span ex:content=".cap" ></span></td>
-									<td><span ex:content=".tipo_strada" ></span></td>
-									</tr>
+									<td><span ex:content=".email" ></span></td>
+								</tr>
 							</table>
 						</div>
 
