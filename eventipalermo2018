@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<meta charset="utf-8">
+	<title>maps by cirospat</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="eventi palermo 2018.">
+	<meta name="author" content="OpenDataSicilia">
+
+	<meta property="og:image" content="http://accussi.opendatasicilia.it/img/accussiShare.jpg" />
+	<meta property="og:title" content="maps by cirospat" />
+	<meta property="og:url" content="https://cirospat.github.io/maps/eventipalermo2018.html" />
+	<meta property="og:image:width" content="927" />
+	<meta property="og:image:height" content="624" />
+
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="./img/maps_favicon.png">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+	
+<!-- css Back To Top -->
+<link href="js/top/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+<link href="js/top/backTop.css" rel="stylesheet" type="text/css" />
+	
+
+    <link rel="exhibit/data"
+    type="application/jsonp"
+    href="https://spreadsheets.google.com/feeds/list/1mWhkZjzxRtCqEdZFw15b4PAuDrm19oyt9ZxGe9tgDB8/od6/public/basic?alt=json-in-script"
+    ex:converter="googleSpreadsheets" />
+
+
+    <script src="./js/dist/exhibit-api.js?locale=it"></script>
+
+
+
+
+
+    <script type="text/javascript">
+    var tableStyler = function(table, database) {
+    	$(table).addClass("table table-condensed table-striped");
+    };
+    </script>
+
+
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+						<a class="navbar-brand logo" href="./index.html">
+							<img style="max-width:100px; margin-top: 7px;"	src="./img/maps_favicon.png">
+						</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="./index.html"><b>maps by cirospat</b></a>
+							</li>
+							
+							<li>
+								<a href="./eventipalermo2018.html"><b>strummintiari</b></a>
+							</li>
+							
+							
+							</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="http://opendatasicilia.it/" target="_blank">OpenDataSicilia</a>
+							</li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+		<div class="row clearfix">
+			<div class="col-md-2 column">
+
+			</div>
+
+			<div class="col-md-8 column">
+				<p class="text-center"> è un catalogo degli <span class="btn btn-danger btn-xs"><b>eventi di Palermo capitale italiana della cultura 2018</b></span> come dettagliato nella Delibera di G.C. n. 276 del 28.12.2017<button type="button" class="btn btn-xs btn-pill btn-info"><b>del comune di Palermo</b></button>. 
+				   Un iniziativa di <a href="https://sites.google.com/view/cirospat" target="_blank"><b>ciro spataro</b></a> in collaborazione con altri soggetti che <button type="button" class="btn btn-xs btn-pill btn-warning"><b>condividono conoscenza</b></button>, e alimentata dalla cultura dei <button type="button" class="btn btn-xs btn-pill btn-warning"><b>dati</b></button> e delle informazioni rappresentati sulle mappe </p>
+			</div>
+			<div class="col-md-2 column">
+				<ul class="share-buttons">
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faccussi.opendatasicilia.it&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.png"></a></li>
+					<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Faccussi.opendatasicilia.it&text=:%20http%3A%2F%2Faccussi.opendatasicilia.it&via=opendatasicilia" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.png"></a></li>
+					<li><a href="https://plus.google.com/share?url=http%3A%2F%2Faccussi.opendatasicilia.it" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="img/Google+.png"></a></li>
+				</ul>
+			</div>	   
+										     		
+		</div>		
+		<div class="row clearfix">
+			<div class="col-md-1 column">
+
+			</div>
+			<div class="col-md-8 column">
+				<button type="button" class="btn btn-pill btn-success"><b>cerca l'evento</b></button><div ex:role="facet" ex:facetClass="TextSearch"></div>
+			</div>
+			<div class="col-md-1 column">
+
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-11 column">
+				<div ex:role="facet"
+				ex:facetClass="Cloud"
+				ex:expression=".tag"
+				ex:facetLabel="tag"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-3 column">
+				<div ex:role="facet"
+				ex:expression=".luogo"
+				ex:facetLabel="luogo"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-3 column">
+				<div ex:role="facet"
+				ex:expression=".inizio"
+				ex:facetLabel="inizio"
+				data-ex-missing-label="Non specificato">
+				</div>
+				
+			</div>
+			<div class="col-md-3 column">
+				<div ex:role="facet"
+				ex:expression=".fine"
+				ex:facetLabel="fine"
+				data-ex-missing-label="Non specificato">
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+
+				<div ex:role="viewPanel" style="padding: 0in;">
+
+
+					<div ex:role="exhibit-view"
+					ex:viewClass="Exhibit.TabularView"
+					ex:label="Table"
+					ex:columns=".iniziativa,.luogo,.tag,.inizio,.fine,.date"
+					ex:columnLabels="titolo, luogo, tag, inizio, fine, data"
+					ex:columnFormats="list,list,list,list,list,list"
+					ex:sortColumn="5"
+					ex:sortAscending="false"
+					ex:tableStyler="tableStyler">
+					<div ex:role="exhibit-lens">
+						<div class="table-responsive">
+							<table class="table" ex:class-content=".titolo">
+								<tr>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".iniziativa" class="accussì"></strong></span></a></td>
+									<td><span ex:content=".luogo"></td>
+									<td><span ex:content=".tag"></span></td>
+									<td><span ex:content=".inizio" ></span></td>
+									<td><span ex:content=".fine" ></span></td>
+									<td><span ex:content=".date" ></span></td>
+								</tr>
+							</table>
+						</div>
+
+					</div>
+				</div>
+
+
+
+
+			</div>
+
+		</div>
+		<hr>
+		<footer>
+			<div class="col-md-10 column">
+			<p class="text-center">
+				<p>Gli <button type="button" class="btn btn-sm btn-pill btn-success"><b>strumenti</b></button> principali usati per realizzare questa visualizzazione:</p>
+  <ul>
+   <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare il cuore di <code><b>maps by cirospat</b></code>, ovvero l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
+   <li><a href="http://getbootstrap.com" target="_blank"><strong>Twitter Boostrap</strong></a>, per dare un po' di <strong>stile</strong> alle pagine pubblicate;</li>
+   <li><a href="https://www.google.com/sheets/about/" target="_blank"><strong>GDrive Sheet</strong></a>, per <strong>raccogliere</strong> e <strong>distribuire</strong> i <strong>dati</strong> che fanno da sorgente;</li>
+   <li><a href="https://pages.github.com" target="_blank"><strong>GitHub Pages</strong></a>, per l'<strong>hosting</strong> dei file che costituiscono <code><b>maps by cirospat</b></code>.</li>
+   <li>L' <span class="btn btn-danger btn-xs">icona</span> &egrave; di <a href="https://thenounproject.com/evanmacdonald/" target="_blank"><strong>Evan MacDonald</strong></a> del "the Noun Project".</li>
+  </ul>
+<p></p>
+  <div>
+  <p> <button type="button" class="btn btn-xs btn-pill btn-info">contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a>      <button type="button" class="btn btn-xs btn-pill btn-info">open data</button> <a href="https://sites.google.com/view/opendataformazione" target="_blank">formazione</a></p>
+<p></p>
+  <p>Il <button type="button" class="btn btn-xs btn-pill btn-warning">codice</button>, che si può clonare e adattare ai propri scopi, &egrave; disponibile in questo <button type="button" class="btn btn-xs btn-pill btn-warning">repository GitHub</button> <a href="https://github.com/cirospat/maps" target="_blank">https://github.com/cirospat/maps</a></p>
+  
+<p></p>
+				<a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/accussi_favicon.png" alt="accussi" caption="false" width="32" height="32" /></a>  <a href="http://nonportale.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/nonportale_favicon.png" alt="non portale" caption="false" width="32" height="32" /></a> <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/petrusino_favicon.png" alt="petrusino" caption="false" width="32" height="32" /></a>  <img src="./img/maps_favicon.png">  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <code><b>maps by cirospat</b></code> di<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName" rel="cc:attributionURL"> Open Data Sicilia</a> è distribuito con <span class="btn btn-danger btn-xs">Licenza</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY - Condividi allo stesso modo 4.0</a>.
+			</p>
+		</footer>
+
+			<!-- script Back To Top -->
+ <a id='backTop'>Back To Top</a>
+<script src="js/top/jquery.backTop.min.js"></script>
+<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 500,
+                    'speed' : 500,
+                    'color' : 'red',
+					
+					                });
+            });
+        </script>
+			
+	</div>
+</body>
+</html>
