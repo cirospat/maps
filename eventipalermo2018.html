@@ -166,8 +166,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".iniziativa,.luogo,.tag,.inizio,.fine,.note"
-					ex:columnLabels="titolo, luogo, tag, inizio, fine, note"
+					ex:columns=".iniziativa,.URL2,.luogo,.tag,.inizio,.fine,.note"
+					ex:columnLabels="titolo, link utile, luogo, tag, inizio, fine, note"
 					ex:columnFormats="list,list,list,list,list,list"
 					ex:sortColumn="5"
 					ex:sortAscending="false"
@@ -177,6 +177,7 @@
 							<table class="table" ex:class-content=".titolo">
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".iniziativa" class="accussì"></strong></span></a></td>
+									<td><a ex:if-exists=".URL2" ex:href-content=".URL2" target="_blank">apri</a></td>
 									<td><span ex:content=".luogo"></td>
 									<td><span ex:content=".tag"></span></td>
 									<td><span ex:content=".inizio" ></span></td>
