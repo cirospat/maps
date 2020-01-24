@@ -1,10 +1,9 @@
 ## <code><b>maps by cirospat</b></code>
 <p>
-	è un elenco di mappe create da ciro spataro in <span class="btn btn-danger btn-xs">collaborazione</span> con altri soggetti che <span class="btn btn-danger btn-xs">condividono</span> conoscenza su come fare cose.
+è un elenco di mappe create da ciro spataro in <span class="btn btn-danger btn-xs">collaborazione</span> con altri soggetti che <span class="btn btn-danger btn-xs">condividono</span> conoscenza su come fare cose.
 L'obiettivo è <strong>divulgare conoscenza</strong> attraverso le <span class="btn btn-danger btn-xs">mappe</span>.
 </p>
 <p>
-
 <p>Gli <button type="button" class="btn btn-sm btn-pill btn-success"><b>strumenti</b></button> strumenti principali usati per realizzare questa visualizzazione:</p>
   <ul>
    <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare il cuore di <code><b>maps by cirospat</b></code>, ovvero l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
