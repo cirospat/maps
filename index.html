@@ -42,11 +42,17 @@
 <link href="js/top/jquerysctipttop.css" rel="stylesheet" type="text/css" />
 <link href="js/top/backTop.css" rel="stylesheet" type="text/css" />
 	
-
+    <!-- vecchia impostazione 
     <link rel="exhibit/data"
     type="application/jsonp"
     href="https://spreadsheets.google.com/feeds/list/1auVqTh1aeJ1c2DuYUWI1UX0p8OHtupApFEjCXWsmxbA/od6/public/basic?alt=json-in-script"
     ex:converter="googleSpreadsheets" />
+    -->
+
+    <!-- nuova impostazione -->
+    <link rel="exhibit/data" 
+    type="text/csv"
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTbeoofA2BXdfTHHEQ1EIA6wY3m6amz6YjrOikL-I3x5IsA5q0FNnp2UvEjW4HF3OZbID7wuTqiUCrD/pub?gid=0&single=true&output=csv"     />
 
 
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
@@ -199,7 +205,7 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".titolo">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".titolo" class="accussì"></strong></span></a></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('.URL'); return false;" target="_blank"><strong><span ex:content=".titolo" class="accussì"></strong></span></a></td>
 									<td><span ex:content=".categoria"></td>
 									<td><span ex:content=".tag"></span></td>
 									<td><span ex:content=".territorio" ></span></td>
