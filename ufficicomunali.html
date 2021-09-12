@@ -43,10 +43,11 @@
 <link href="js/top/backTop.css" rel="stylesheet" type="text/css" />
 	
 
-    <link rel="exhibit/data"
-    type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1bhVCNa78-PAhG8a02-0ysABZcHJTUKAxvOGguOG364s/od6/public/basic?alt=json-in-script"
-    ex:converter="googleSpreadsheets" />
+    <!-- nuova impostazione -->
+    <link rel="exhibit/data" 
+    ex:valueSeparator=","          
+    type="text/tsv"
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR7LD5gj8CrgR-BoMPEFIbTntacTNlu-eLJ2cr7z83sKyECcZ2V0-eYcE-AJrOmikvj71EdP_BFYV9P/pub?gid=1872817534&single=true&output=tsv"     />
 
 
     <script src="./js/dist/exhibit-api.js?locale=it"></script>
@@ -141,8 +142,8 @@
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet"
-				ex:expression=".accesso_disabili"
-				ex:facetLabel="accesso disabilie"
+				ex:expression=".anno_anello_telematico"
+				ex:facetLabel="anno anello telematico"
 				data-ex-missing-label="Non specificato">
 				</div>
 				
@@ -158,8 +159,8 @@
 					<div ex:role="exhibit-view"
 					ex:viewClass="Exhibit.TabularView"
 					ex:label="Table"
-					ex:columns=".ufficio_comunale,.tag,.indirizzo,.collegamento_anello_telematico,.email"
-					ex:columnLabels="ufficio_comunale, tag, indirizzo, collegamento anello telematico, email"
+					ex:columns=".ufficio_comunale,.indirizzo,.collegamento_anello_telematico,.anno_anello_telematico,.email"
+					ex:columnLabels="ufficio_comunale, indirizzo, collegamento anello telematico, anno anello telematico, email"
 					ex:columnFormats="list,list,list,list,list"
 					ex:sortColumn="4"
 					ex:sortAscending="false"
@@ -169,9 +170,9 @@
 							<table class="table" ex:class-content=".titolo">
 								<tr>
 									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".ufficio_comunale" class="accussì"></strong></span></a></td>
-									<td><span ex:content=".tag"></td>
-									<td><span ex:content=".indirizzo" ></span></td>
+									<td><span ex:content=".indirizzo"></td>
 									<td><span ex:content=".collegamento_anello_telematico" ></span></td>
+									<td><span ex:content=".anno_anello_telematico" ></span></td>
 									<td><span ex:content=".email" ></span></td>
 								</tr>
 							</table>
