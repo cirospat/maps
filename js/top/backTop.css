@@ -24,8 +24,8 @@
     border:1px solid #fff;
 }
 #backTop.green{
-     background:url(img/uparr-48-w.png) no-repeat center center rgba(65,105,225);    /*colore originario green = (81,217,187,0.9) */
-    border:3px solid #ff8c00;                                                           /*#fff = colore bianco e #ccc = colore nero  */
+     background:url(img/uparr-48-w.png) no-repeat center center rgba(65,105,225);      /*colore originario green = (81,217,187,0.9) */
+    border:3px solid #fff;                                                             /*#fff = colore bianco e #ccc = colore nero  */
 }
 #backTop.blue{
      background:url(img/uparr-48-b.png) no-repeat center center rgba(0,0,255,0.3); 
