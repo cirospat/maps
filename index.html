@@ -42,14 +42,9 @@
 <link href="js/top/jquerysctipttop.css" rel="stylesheet" type="text/css" />
 <link href="js/top/backTop.css" rel="stylesheet" type="text/css" />
 	
-    <!-- vecchia impostazione 
-    <link rel="exhibit/data"
-    type="application/jsonp"
-    href="https://spreadsheets.google.com/feeds/list/1auVqTh1aeJ1c2DuYUWI1UX0p8OHtupApFEjCXWsmxbA/od6/public/basic?alt=json-in-script"
-    ex:converter="googleSpreadsheets" />
-    -->
+   
 
-    <!-- nuova impostazione -->
+    <!-- nuova impostazione per leggere il database di Google spreadsheeet come csv o tsv -->
     <link rel="exhibit/data" 
     ex:valueSeparator=","          
     type="text/tsv"
@@ -153,10 +148,7 @@
                                 <ul class="share-buttons">
 					<li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Faccussi.opendatasicilia.it&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.png"></a></li>
 					<li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Faccussi.opendatasicilia.it&text=:%20http%3A%2F%2Faccussi.opendatasicilia.it&via=opendatasicilia" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.png"></a></li>
-					
-				</ul>   
-				
-				
+				</ul>   				
 			</div>	   
 										     		
 		</div>	          	-->                 
@@ -168,13 +160,13 @@
 			
 			<div class="col-md-10 column">
 				<button type="button" class="btn btn-primary"><b>Cerca la mappa o la parola chiave</b></button> 
-			  <!--  <img src="https://img.shields.io/badge/digita_la_parola_chiave-e_ti_fornisco_risposte_immediate-blue.svg"/>  -->
-                                <div ex:role="facet" ex:facetClass="TextSearch"> 
+			        <div ex:role="facet" ex:facetClass="TextSearch"> 
 				</div>
 			</div>
+			
 			<div class="col-md-1 column">
-
 			</div>  
+			
 		</div> 
 		<div class="row clearfix">                              
 			<div class="col-md-12 column"> 
@@ -263,9 +255,10 @@
 			
 		<hr>	
 		<footer>
+			
 			<div class="col-md-10 column">
-			<p class="text-center">                               <!-- <button type="button" class="btn btn-sm btn-pill btn-success"><b>Strumenti</b></button>  -->                     
-				<p> <button type="button" class="btn btn-primary">Strumenti</button> principali usati per realizzare questa visualizzazione:</p>
+			<p class="text-center">                     
+			<p> <button type="button" class="btn btn-primary">Strumenti</button> principali usati per realizzare questa visualizzazione:</p>
   <ul>
    <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
    <li><a href="http://getbootstrap.com" target="_blank"><strong>Twitter Boostrap</strong></a>, per dare un po' di <strong>stile</strong> alle pagine pubblicate;</li>
@@ -275,18 +268,18 @@
   </ul>
 <p></p>
   <div>
-  <p> <!-- <button type="button" class="btn btn-xs btn-pill btn-info">Contatti</button> --> <button type="button" class="btn btn-primary btn-xs">Contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a> - <a href="https://sites.google.com/view/opendataformazione" target="_blank">open data formazione</a></p>
+  <p> <button type="button" class="btn btn-primary btn-xs">Contatti</button> <a href="mailto:cirospat@gmail.com"><span style="color:#1C7293">cirospat@gmail.com</span></a> - <a href="https://sites.google.com/view/opendataformazione" target="_blank">open data formazione</a></p>
 <p></p>
-  <p> <!-- <button type="button" class="btn btn-xs btn-pill btn-warning">Il codice</button> --> <button type="button" class="btn btn-primary btn-xs">Il codice</button> - che si può clonare e adattare ai propri scopi - &egrave; disponibile in questo repository GitHub: <a href="https://github.com/cirospat/maps/tree/gh-pages" target="_blank">https://github.com/cirospat/maps/tree/gh-pages</a></p>
+  <p> <button type="button" class="btn btn-primary btn-xs">Il codice</button> - che si può clonare e adattare ai propri scopi - &egrave; disponibile in questo repository GitHub: <a href="https://github.com/cirospat/maps/tree/gh-pages" target="_blank">https://github.com/cirospat/maps/tree/gh-pages</a></p>
   
 <p></p>
-    <!--    <a href="http://accussi.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/accussi_favicon.png" alt="accussi" caption="false" width="32" height="32" /></a> <a href="http://petrusino.opendatasicilia.it/index.html" target="_blank" rel="noopener"> <img src="./img/petrusino_favicon.png" alt="petrusino" caption="false" width="32" height="32" /></a>  -->  <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> Questo progetto è distribuito con licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY - Condividi allo stesso modo 4.0</a> <img src="./img/maps_favicon.png">
+    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> Questo progetto è distribuito con licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY - Condividi allo stesso modo 4.0</a> <img src="./img/maps_favicon.png">
 </p>
 		
 	</footer>
 
-			<!-- script Back To Top -->
- <a id='backTop'>Back To Top</a>
+<!-- script Back To Top -->
+<a id='backTop'>Back To Top</a>
 <script src="js/top/jquery.backTop.min.js"></script>
 <script>
             $(document).ready( function() {
