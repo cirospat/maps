@@ -44,7 +44,7 @@
 	
    
 
-    <!-- nuova impostazione per leggere il database di Google spreadsheeet come csv o tsv -->
+    <!-- impostazione per leggere i dati dal database Google spreadsheeet come puro formato "csv" o "tsv" -->
     <link rel="exhibit/data" 
     ex:valueSeparator=","          
     type="text/tsv"
@@ -62,7 +62,7 @@
     </script>
 
 	
-    <!-- Go to www.addthis.com/dashboard to customize your tools (condivisione social icone laterali a destra) -->
+    <!-- Go to www.addthis.com/dashboard to customize your tools (abilita la condivisione social con icone laterali a destra su desktop) -->
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4c36adc4260026"></script>	
 
 	
@@ -85,7 +85,7 @@
 							<li class="active">
 								<a href="./index.html"><b>Maps by cirospat</b></a>
 							</li>
-						<!--
+						<!-- 
 							<li>
 								<a href="./strummintiari.html"><b>strummintiari</b></a>
 							</li>
@@ -128,7 +128,7 @@
 
 	     
 		
-
+                        <!-- intestazione: titolo e testo di pesentazione del progetto -->
 			<div class="col-md-12 column">  
 			     <h4>Catalogo di mappe georeferenziate, soprattutto su Palermo</h4>
 			     <p>Un iniziativa di <a href="http://cirospat.readthedocs.io" target="_blank">Ciro Spataro</a> in collaborazione con altri soggetti che 
@@ -139,14 +139,14 @@
 		
 		 
          
-		
-		<div class="row clearfix">	               
-			<div class="col-md-12 column">
+		        <!-- testo per la funzione "cerca" -->
+		        <div class="row clearfix">	               
+			    <div class="col-md-12 column">
 				<button type="button" class="btn btn-primary"><b>Cerca la mappa o la parola chiave</b></button> 
 			        <div ex:role="facet" ex:facetClass="TextSearch"> 
 				</div>
-			</div>	
-		</div> 
+			    </div>	
+		       </div> 
 		
 		
 		<div class="row clearfix">                              
@@ -178,6 +178,7 @@
 				ex:sortMode="count"></div>
 			</div>
 		</div>
+		
 		
 		<div class="row clearfix">
 			<div class="col-md-12 column">
@@ -212,7 +213,8 @@
 		
 		
 	       <hr>
-			
+		
+	       <!-- codice per abilitare i commenti in basso (prima del footer) grazie alle API del componente Disqus -->
 	       <div id="disqus_thread"></div>
                <script>
                (function() { // DON'T EDIT BELOW THIS LINE
@@ -227,10 +229,11 @@
 	       <hr>	
 		
 	       <footer>
-			
-			<div class="col-md-10 column">
-			<p class="text-center">                     
-			<p> <button type="button" class="btn btn-primary">Strumenti</button> principali usati per realizzare questa visualizzazione:</p>
+		
+	       <!-- testo da inserire nello spazio del footer in basso nella pagina web -->        
+	       <div class="col-md-10 column">
+   <!--	       <p class="text-center">         -->                
+	       <p> <button type="button" class="btn btn-primary">Strumenti</button> principali usati per realizzare questa visualizzazione:</p>
   <ul>
    <li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
    <li><a href="http://getbootstrap.com" target="_blank"><strong>Twitter Boostrap</strong></a>, per dare un po' di <strong>stile</strong> alle pagine pubblicate;</li>
@@ -253,7 +256,8 @@
 		
 	    </footer>
 
-<!-- script Back To Top -->
+		
+<!-- script "Back To Top" per abilitare la freccia che porta all'inizio della pagina web -->
 <a id='backTop'>Back To Top</a>
 <script src="js/top/jquery.backTop.min.js"></script>
 <script>
