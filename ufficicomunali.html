@@ -100,8 +100,9 @@
 		
 
 			<div class="col-md-11 column">
-				<p> <button type="button" class="btn btn-primary btn-xs"><b>Catalogo degli uffici comunali</b></button> Sono presenti le informazioni relative al
-				    collegamento dell'immobile comunale all'anello telematico (infrastruttura di banda larga comunale). 
+				<p> <button type="button" class="btn btn-primary btn-xs"><b>Catalogo degli uffici comunali</b></button><br>
+				    Sono presenti le informazioni relative al collegamento dell'immobile comunale all'anello telematico 
+				    (infrastruttura di banda larga comunale).<br> 
 				    Fonte dati <a href="https://www.comune.palermo.it/organigramma.php" target="_blank"><b>organigramma del Comune di Palermo</b></a>.
 				    Vedi la <a href="https://umap.openstreetmap.fr/it/map/anello-telematico-comunale-palermo-wifi-comunale-v_71124#14/38.1330/13.3596" target="_blank"><b>mappa</b></a> degli uffici collegati all'anello telematico.</p>
 			</div>	
@@ -167,7 +168,7 @@
 						<div class="table-responsive">
 							<table class="table" ex:class-content=".titolo">
 								<tr>
-									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('{{.URL}}'); return false;" target="_blank"><strong><span ex:content=".ufficio_comunale" class="accussì"></strong></span></a></td>
+									<td><a ex:href-content=".URL" ex:onclick-subcontent="trackOutboundLink('.URL'); return false;" target="_blank"><strong><span ex:content=".ufficio_comunale" class="accussì"></strong></span></a></td>
 									<td><span ex:content=".Indirizzo"></td>
 									<td><span ex:content=".collegamento_anello_telematico" ></span></td>
 									<td><span ex:content=".anno_anello_telematico" ></span></td>
